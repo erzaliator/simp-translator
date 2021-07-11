@@ -90,7 +90,7 @@ def batch_iter(src,tgt,batch_size):
 def main_translate():
 
     batch_size = 64
-    rank = 'cuda:2'
+    rank = 'cuda:0'
 
     modules = model_builder(rank)
 
